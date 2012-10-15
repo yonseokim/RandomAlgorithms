@@ -67,7 +67,7 @@ public class Knight {
 					_prob[x_new][y_new] = 1;
 				}
 			}
-			if (totalMove>0) {
+			if (totalMove>1) {
 				for(int i=0;i<_m;++i) {
 					for(int j=0;j<_m;++j) {
 						if (_prob[i][j]!=0) {
