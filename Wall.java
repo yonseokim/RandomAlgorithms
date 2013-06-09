@@ -8,6 +8,7 @@ import java.util.BitSet;
 import java.util.Comparator;
 
 public class Wall {
+	// does this give diffs ?
     private static final BitCompare _comparator = new BitCompare();
     
     private static class BitCompare implements Comparator<BitSet> {
